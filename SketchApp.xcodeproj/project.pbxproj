@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0F77CB26C925F600C0C7D4 /* DarkModeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F77CA26C925F600C0C7D4 /* DarkModeViewModifier.swift */; };
+		FD0F77CE26C928E700C0C7D4 /* AppLockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F77CD26C928E700C0C7D4 /* AppLockViewModel.swift */; };
+		FD0F77D026C938C200C0C7D4 /* AppLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F77CF26C938C200C0C7D4 /* AppLockView.swift */; };
+		FD0F77D226C93BF300C0C7D4 /* AppHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0F77D126C93BF300C0C7D4 /* AppHomeView.swift */; };
 		FD643AB926C80E2D000EA9EC /* SketchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643AB826C80E2D000EA9EC /* SketchAppApp.swift */; };
 		FD643ABB26C80E2D000EA9EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643ABA26C80E2D000EA9EC /* ContentView.swift */; };
 		FD643ABD26C80E2E000EA9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD643ABC26C80E2E000EA9EC /* Assets.xcassets */; };
 		FD643AC026C80E2E000EA9EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD643ABF26C80E2E000EA9EC /* Preview Assets.xcassets */; };
 		FD643AC226C80E2E000EA9EC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643AC126C80E2E000EA9EC /* Persistence.swift */; };
 		FD643AC526C80E2E000EA9EC /* SketchApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD643AC326C80E2E000EA9EC /* SketchApp.xcdatamodeld */; };
+		FD643ACE26C813CE000EA9EC /* AddNewCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643ACD26C813CE000EA9EC /* AddNewCanvasView.swift */; };
+		FD643AD026C81B25000EA9EC /* DrawingCanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643ACF26C81B25000EA9EC /* DrawingCanvasViewController.swift */; };
+		FD643AD426C81FC1000EA9EC /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643AD326C81FC1000EA9EC /* DrawingCanvasView.swift */; };
+		FD643AD626C827DD000EA9EC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD643AD526C827DD000EA9EC /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD0F77CA26C925F600C0C7D4 /* DarkModeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewModifier.swift; sourceTree = "<group>"; };
+		FD0F77CD26C928E700C0C7D4 /* AppLockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockViewModel.swift; sourceTree = "<group>"; };
+		FD0F77CF26C938C200C0C7D4 /* AppLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockView.swift; sourceTree = "<group>"; };
+		FD0F77D126C93BF300C0C7D4 /* AppHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeView.swift; sourceTree = "<group>"; };
 		FD643AB526C80E2D000EA9EC /* SketchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD643AB826C80E2D000EA9EC /* SketchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchAppApp.swift; sourceTree = "<group>"; };
 		FD643ABA26C80E2D000EA9EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		FD643AC126C80E2E000EA9EC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FD643AC426C80E2E000EA9EC /* SketchApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SketchApp.xcdatamodel; sourceTree = "<group>"; };
 		FD643AC626C80E2E000EA9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD643ACD26C813CE000EA9EC /* AddNewCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCanvasView.swift; sourceTree = "<group>"; };
+		FD643ACF26C81B25000EA9EC /* DrawingCanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasViewController.swift; sourceTree = "<group>"; };
+		FD643AD326C81FC1000EA9EC /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		FD643AD526C827DD000EA9EC /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD0F77C926C925DE00C0C7D4 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FD0F77CA26C925F600C0C7D4 /* DarkModeViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FD0F77CC26C928D300C0C7D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD0F77CD26C928E700C0C7D4 /* AppLockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FD643AAC26C80E2D000EA9EC = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +88,16 @@
 		FD643AB726C80E2D000EA9EC /* SketchApp */ = {
 			isa = PBXGroup;
 			children = (
-				FD643AB826C80E2D000EA9EC /* SketchAppApp.swift */,
+				FD0F77CC26C928D300C0C7D4 /* ViewModel */,
+				FD0F77C926C925DE00C0C7D4 /* Modifiers */,
+				FD643AD226C81FAF000EA9EC /* View */,
+				FD643AD126C81B2A000EA9EC /* Controller */,
+				FD643ACC26C813BD000EA9EC /* Canvas */,
+				FD643AD526C827DD000EA9EC /* DrawingView.swift */,
+				FD0F77D126C93BF300C0C7D4 /* AppHomeView.swift */,
 				FD643ABA26C80E2D000EA9EC /* ContentView.swift */,
+				FD0F77CF26C938C200C0C7D4 /* AppLockView.swift */,
+				FD643AB826C80E2D000EA9EC /* SketchAppApp.swift */,
 				FD643ABC26C80E2E000EA9EC /* Assets.xcassets */,
 				FD643AC126C80E2E000EA9EC /* Persistence.swift */,
 				FD643AC626C80E2E000EA9EC /* Info.plist */,
@@ -73,6 +113,30 @@
 				FD643ABF26C80E2E000EA9EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD643ACC26C813BD000EA9EC /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				FD643ACD26C813CE000EA9EC /* AddNewCanvasView.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		FD643AD126C81B2A000EA9EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD643ACF26C81B25000EA9EC /* DrawingCanvasViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD643AD226C81FAF000EA9EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD643AD326C81FC1000EA9EC /* DrawingCanvasView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +209,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD643AC226C80E2E000EA9EC /* Persistence.swift in Sources */,
+				FD0F77D026C938C200C0C7D4 /* AppLockView.swift in Sources */,
+				FD0F77CE26C928E700C0C7D4 /* AppLockViewModel.swift in Sources */,
+				FD643ACE26C813CE000EA9EC /* AddNewCanvasView.swift in Sources */,
 				FD643AC526C80E2E000EA9EC /* SketchApp.xcdatamodeld in Sources */,
+				FD0F77CB26C925F600C0C7D4 /* DarkModeViewModifier.swift in Sources */,
+				FD643AD626C827DD000EA9EC /* DrawingView.swift in Sources */,
+				FD643AD026C81B25000EA9EC /* DrawingCanvasViewController.swift in Sources */,
 				FD643ABB26C80E2D000EA9EC /* ContentView.swift in Sources */,
+				FD0F77D226C93BF300C0C7D4 /* AppHomeView.swift in Sources */,
 				FD643AB926C80E2D000EA9EC /* SketchAppApp.swift in Sources */,
+				FD643AD426C81FC1000EA9EC /* DrawingCanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
